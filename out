@@ -1,0 +1,698 @@
+Script started on Wednesday 11 January 2017 10:31:59 AM IST
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ create [K[K[K[K[K[K[Kmymodel [K[K[K[K[K[K[K[Krails g model vender[K[K[K[K[K[KVender name:string location:str ing
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require': There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+/home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+-e:1:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+	from /home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Vender name:string location:striing[A]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails consolels app/models[Kmodelsrails consoleexit[Krails g model Vender name:string location:striing[A]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails g model Vender name:string location:striing
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require': There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+/home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+-e:1:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+	from /home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ [H[2J]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Vender name:string location:striing
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require': There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+/home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+-e:1:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+	from /home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Vender name:string location:striing[A]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Vender name:string location:striing
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require': There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+/home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+-e:1:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+	from /home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ source [K.[K .bash[K[K[Kashrc[K[K/e[Krv[K[K[K[K[K[K[K[Krails g model Vender name:string location:striing`[A]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails g model Vender name:string location:striing`[A]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ source [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~./bash_profile
+bash: ~./bash_profile: No such file or directory
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ cd ..
+]0;amit@machine: ~amit@machine:~$ cd ..source ~./bash_profile
+bash: ~./bash_profile: No such file or directory
+]0;amit@machine: ~amit@machine:~$ source ~./bash_profile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ksource ~./bash_profile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails g model Vender name:string location:string`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Krails consolels app/models[Kdb/migrate[6Papp/modelsrails consoleexit[Krails g model Vender name:string location:string`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Psource ~./bash_profile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ksource ~./bash_profile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd c[KCoorporateCatering/
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ reset
+[3g        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ resetcd CoorporateCatering/source ~./bash_profilecd ..[Ksource ~./bash_profilerails g model Vender name:string location:striing`
+> ^C
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Vender name:string location:striing`[K
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require': There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+/home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+-e:1:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+	from /home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ [K]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Vender name:string location:string`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceset[K
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ resetails g model Vender name:string location:string
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require': There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/uglifier-3.0.4/lib/uglifier.rb:5:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+/home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+/home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+-e:1:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:86:in `block in require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `each'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler/runtime.rb:75:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/bundler-1.13.7/lib/bundler.rb:106:in `require'
+	from /home/amit/CoorporateCatering/config/application.rb:7:in `<top (required)>'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `require'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:82:in `preload'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:143:in `serve'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:131:in `block in run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `loop'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application.rb:125:in `run'
+	from /home/amit/.rvm/gems/ruby-2.3.3/gems/spring-2.0.0/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/amit/.rvm/rubies/ruby-2.3.3/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from -e:1:in `<main>'
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi Gemfile
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"Gemfile" 53L, 1880C[>c[1;1Hsource [35m'[m[31mhttps://rubygems.org[m[35m'[m
+
+git_source([31m:github[m) [33mdo[m |[36mrepo_name[m|
+  repo_name = [35m"#{[mrepo_name[35m}[m[31m/[m[35m#{[mrepo_name[35m}"[m [33munless[m repo_name.include?([35m"[m[31m/[m[35m"[m)
+  [35m"[m[31mhttps://github.com/[m[35m#{[mrepo_name[35m}[m[31m.git[m[35m"[m
+[33mend[m
+
+
+[34m# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'[m
+gem [35m'[m[31mrails[m[35m'[m, [35m'[m[31m~> 5.0.1[m[35m'[m
+[34m# Use sqlite3 as the database for Active Record[m
+gem [35m'[m[31msqlite3[m[35m'[m
+[34m# Use Puma as the app server[m
+gem [35m'[m[31mpuma[m[35m'[m, [35m'[m[31m~> 3.0[m[35m'[m
+[34m# Use SCSS for stylesheets[m
+gem [35m'[m[31msass-rails[m[35m'[m, [35m'[m[31m~> 5.0[m[35m'[m
+[34m# Use Uglifier as compressor for JavaScript assets[m
+gem [35m'[m[31muglifier[m[35m'[m, [35m'[m[31m>= 1.3.0[m[35m'[m
+[34m# Use CoffeeScript for .coffee assets and views[m
+gem [35m'[m[31mcoffee-rails[m[35m'[m, [35m'[m[31m~> 4.2[m[35m'[m
+[34m# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library[m
+gem [35m'[m[31mjquery-rails[m[35m'[m
+[34m# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks[m
+gem [35m'[m[31mturbolinks[m[35m'[m, [35m'[m[31m~> 5[m[35m'[m
+[34m# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder[m
+gem [35m'[m[31mjbuilder[m[35m'[m, [35m'[m[31m~> 2.5[m[35m'[m
+[34m# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~> 3.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development[m
+
+group [31m:development[m, [31m:test[m [33mdo[m
+  [34m# Call 'byebug' anywhere in the code to stop execution and get a debugger console[m
+  gem [35m'[m[31mbyebug[m[35m'[m, [31mplatform[m: [31m:mri[m[41;127H1,1[11CTop[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[1m-- INSERT --[m[41;13H[K[41;127H1,1[11CTop[1;1H[?12l[?25h[?25ljsource [35m'[m[31mhttps://rubygems.org[m[35m'[m[41;129H2[1;2H[?12l[?25h[?25l[31m:source[m [35m'[m[31mhttps://rubygems.org[m[35m'[m[41;129H3[1;3H[?12l[?25h[41;1H[K[1;2H[?25l[41;127H1,2[11CTop[1;2H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[41;1H[K[41;1H[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi Gemfile
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"Gemfile" 53L, 1880C[>c[1;1Hsource [35m'[m[31mhttps://rubygems.org[m[35m'[m
+
+git_source([31m:github[m) [33mdo[m |[36mrepo_name[m|
+  repo_name = [35m"#{[mrepo_name[35m}[m[31m/[m[35m#{[mrepo_name[35m}"[m [33munless[m repo_name.include?([35m"[m[31m/[m[35m"[m)
+  [35m"[m[31mhttps://github.com/[m[35m#{[mrepo_name[35m}[m[31m.git[m[35m"[m
+[33mend[m
+
+
+[34m# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'[m
+gem [35m'[m[31mrails[m[35m'[m, [35m'[m[31m~> 5.0.1[m[35m'[m
+[34m# Use sqlite3 as the database for Active Record[m
+gem [35m'[m[31msqlite3[m[35m'[m
+[34m# Use Puma as the app server[m
+gem [35m'[m[31mpuma[m[35m'[m, [35m'[m[31m~> 3.0[m[35m'[m
+[34m# Use SCSS for stylesheets[m
+gem [35m'[m[31msass-rails[m[35m'[m, [35m'[m[31m~> 5.0[m[35m'[m
+[34m# Use Uglifier as compressor for JavaScript assets[m
+gem [35m'[m[31muglifier[m[35m'[m, [35m'[m[31m>= 1.3.0[m[35m'[m
+[34m# Use CoffeeScript for .coffee assets and views[m
+gem [35m'[m[31mcoffee-rails[m[35m'[m, [35m'[m[31m~> 4.2[m[35m'[m
+[34m# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library[m
+gem [35m'[m[31mjquery-rails[m[35m'[m
+[34m# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks[m
+gem [35m'[m[31mturbolinks[m[35m'[m, [35m'[m[31m~> 5[m[35m'[m
+[34m# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder[m
+gem [35m'[m[31mjbuilder[m[35m'[m, [35m'[m[31m~> 2.5[m[35m'[m
+[34m# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~> 3.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development[m
+
+group [31m:development[m, [31m:test[m [33mdo[m
+  [34m# Call 'byebug' anywhere in the code to stop execution and get a debugger console[m
+  gem [35m'[m[31mbyebug[m[35m'[m, [31mplatform[m: [31m:mri[m[41;127H1,1[11CTop[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;127H2,0-1[2;1H[?12l[?25h[?25l[41;127H3,1  [3;1H[?12l[?25h[?25l[41;127H4[4;1H[?12l[?25h[?25l[41;127H5[5;1H[?12l[?25h[?25l[41;127H6[6;1H[?12l[?25h[?25l[41;127H7,0-1[7;1H[?12l[?25h[?25l[41;127H8[8;1H[?12l[?25h[?25l[41;127H9,1  [9;1H[?12l[?25h[?25l[41;127H10,1[10;1H[?12l[?25h[?25l[41;128H1[11;1H[?12l[?25h[?25l[41;128H2[12;1H[?12l[?25h[?25l[41;128H3[13;1H[?12l[?25h[?25l[41;128H4[14;1H[?12l[?25h[?25l[41;128H5[15;1H[?12l[?25h[?25l[41;128H6[16;1H[?12l[?25h[?25l[41;128H7[17;1H[?12l[?25h[?25l[41;128H8[18;1H[?12l[?25h[?25l[41;128H9[19;1H[?12l[?25h[?25l[41;127H20[20;1H[?12l[?25h[?25l[41;128H1[21;1H[?12l[?25h[?25l[41;128H2[22;1H[?12l[?25h[?25l[41;128H3,0-1[23;1H[?12l[?25h[?25l[41;128H4,1  [24;1H[?12l[?25h[?25l[41;128H5[25;1H[?12l[?25h[?25l[41;128H6[26;1H[?12l[?25h[?25l[41;128H7[27;1H[?12l[?25h[?25l[41;128H8[28;1H[?12l[?25h[?25l[41;128H9[29;1H[?12l[?25h[?25l[41;127H30[30;1H[?12l[?25h[?25l[41;128H1[31;1H[?12l[?25h[?25l[41;128H2[32;1H[?12l[?25h[?25l[41;128H3[33;1H[?12l[?25h[?25l[41;128H4,0-1[34;1H[?12l[?25h[?25l[41;128H5,1  [35;1H[?12l[?25h[?25l[41;128H4,0-1[34;1H[?12l[?25h[?25l[41;128H3,1  [33;1H[?12l[?25h[?25l[41;128H2[32;1H[?12l[?25h[?25l[41;128H1[31;1H[?12l[?25h[?25l[41;128H0[30;1H[?12l[?25h[?25l[41;127H29[29;1H[?12l[?25h[?25l[41;128H8[28;1H[?12l[?25h[?25l[41;128H7[27;1H[?12l[?25h[?25l[41;128H6[26;1H[?12l[?25h[?25l[41;128H5[25;1H[?12l[?25h[?25l[41;128H4[24;1H[?12l[?25h[?25l[41;128H3,0-1[23;1H[?12l[?25h[?25l[41;128H2,1  [22;1H[?12l[?25h[?25l[41;130H2[22;2H[?12l[?25h[?25l[41;1H[1m-- INSERT --[m[41;13H[K[41;127H22,2[10CTop[22;2H[?12l[?25h[?25l gem [35m'[m[31mtherubyracer[m[35m'[m, [31mplatforms[m: [31m:ruby[m[22;38H[K[41;130H1[22;1H[?12l[?25h[?25l[41;130H2[22;2H[?12l[?25h[?25lgem [35m'[m[31mtherubyracer[m[35m'[m, [31mplatforms[m: [31m:ruby[m[22;37H[K[41;130H1[22;1H[?12l[?25h[?25l[31m:gem[m [35m'[m[31mtherubyracer[m[35m'[m, [31mplatforms[m: [31m:ruby[m[41;130H2[22;2H[?12l[?25h[?25lgem [35m'[m[31mtherubyracer[m[35m'[m, [31mplatforms[m: [31m:ruby[m[22;37H[K[41;130H1[22;1H[?12l[?25h[41;1H[K[22;1H[?25l[41;127H22,1[10CTop[22;1H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Gemfile" 53L, 1878C written
+[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migrea[K[Kate Veng[Kder name:string location:string
+Running via Spring preloader in process 3004
+Expected string default value for '--jbuilder'; got true (boolean)
+Expected string default value for '--helper'; got true (boolean)
+Expected string default value for '--assets'; got true (boolean)
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ a[Krails g migrate Company name:string phoneno:integer location:string email:string
+Running via Spring preloader in process 3013
+Expected string default value for '--jbuilder'; got true (boolean)
+Expected string default value for '--helper'; got true (boolean)
+Expected string default value for '--assets'; got true (boolean)
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migrate Employee name:string phone:[Kno:integer(10) designation:string
+bash: syntax error near unexpected token `('
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migrate Employee name:string phoneno:integer(10) designation:string[C[C[C[1P designation:string[1P designation:string[1P designation:string[1P designation:string
+Running via Spring preloader in process 3250
+Expected string default value for '--jbuilder'; got true (boolean)
+Expected string default value for '--helper'; got true (boolean)
+Expected string default value for '--assets'; got true (boolean)
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls
+[0m[01;34mapp[0m  [01;34mbin[0m  [01;34mconfig[0m  config.ru  [01;34mdb[0m  Gemfile  Gemfile.lock  [01;34mlib[0m  [01;34mlog[0m  out  [01;34mpublic[0m  Rakefile  README.md  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls app/models/
+application_record.rb  [0m[01;34mconcerns[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi app/o[Kmodels/application_record.rb 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"app/models/application_record.rb" 3L, 78C[>c[1;1H[35mclass[m [32mApplicationRecord[m < [32mActiveRecord[m::[32mBase[m
+  [31mself[m.abstract_class = [31mtrue[m
+[35mend[m
+[1m[34m~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[41;3H[K[41;3H[?12l[?25h[?25l[41;2H[K[41;2H[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[41;1H[K[41;1H[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ la[Ks app/
+[0m[01;34massets[0m  [01;34mchannels[0m  [01;34mcontrollers[0m  [01;34mhelpers[0m  [01;34mjobs[0m  [01;34mmailers[0m  [01;34mmodels[0m  [01;34mviews[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ bundle install
+Using rake 12.0.0
+Using concurrent-ruby 1.0.4
+Using i18n 0.7.0
+Using minitest 5.10.1
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 2.0.1
+Using nio4r 1.2.1
+Using websocket-extensions 0.1.2
+Using mime-types-data 3.2016.0521
+Using arel 7.1.4
+Using byebug 9.0.6
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using method_source 0.8.2
+Using thor 0.19.4
+Using debug_inspector 0.0.2
+Using ffi 1.9.14
+Using multi_json 1.12.1
+Using libv8 3.16.14.17
+Using rb-fsevent 0.9.8
+Using puma 3.6.2
+Using bundler 1.13.7
+Using ref 2.0.0
+Using sass 3.4.23
+Using tilt 2.0.5
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.0
+Using tzinfo 1.2.2
+Using nokogiri 1.7.0.1
+Using rack-test 0.6.3
+Using sprockets 3.7.1
+Using websocket-driver 0.6.4
+Using mime-types 3.1
+Using coffee-script 2.4.1
+Using uglifier 3.0.4
+Using rb-inotify 0.9.7
+Using therubyracer 0.12.3
+Using turbolinks 5.0.1
+Using activesupport 5.0.1
+Using loofah 2.0.3
+Using mail 2.6.4
+Using listen 3.0.8
+Using rails-dom-testing 2.0.2
+Using globalid 0.3.7
+Using activemodel 5.0.1
+Using jbuilder 2.6.1
+Using spring 2.0.0
+Using rails-html-sanitizer 1.0.3
+Using activejob 5.0.1
+Using activerecord 5.0.1
+Using spring-watcher-listen 2.0.1
+Using actionview 5.0.1
+Using actionpack 5.0.1
+Using actioncable 5.0.1
+Using actionmailer 5.0.1
+Using railties 5.0.1
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.2.1
+Using jquery-rails 4.2.2
+Using web-console 3.4.0
+Using rails 5.0.1
+Using sass-rails 5.0.6
+[32mBundle complete! 16 Gemfile dependencies, 65 gems now installed.[0m
+[32mUse `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ d[Kbun[K[K[Kbundle install[7Pls app/vi app/models/application_record.rb [22Pls app/models/[Krails g migrate Employee name:string phoneno:integer designation:string(10) designation:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCompany name:string phoneno:integer location:string email:string
+Running via Spring preloader in process 3286
+Expected string default value for '--jbuilder'; got true (boolean)
+Expected string default value for '--helper'; got true (boolean)
+Expected string default value for '--assets'; got true (boolean)
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migrate Company name:string phoneno:integer location:string email:string[1P[1P[1P[1P[1P[1P[1P[1@m[1@o[1@d[1@e[1@l
+Running via Spring preloader in process 3294
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170111051912_create_companies.rb
+[1m[32m      create[0m    app/models/company.rb
+[1m[37m      invoke[0m    test_unit
+[1m[32m      create[0m      test/models/company_test.rb
+[1m[32m      create[0m      test/fixtures/companies.yml
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Company name:string phoneno:integer location:string email:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@igrate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbundle install[Krails g migrate Company name:string phoneno:integer location:string email:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Podel[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@igrate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbundle install[K[7Pls app/vi app/models/application_record.rb [22Pls app/models/[Krails g migrate Employee name:string phoneno:integer designation:string[C[C[1P[1P[1P[1P[1P[1P[1@o[1@d[1@e[1@l
+Running via Spring preloader in process 3302
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170111051957_create_employees.rb
+[1m[32m      create[0m    app/models/employee.rb
+[1m[37m      invoke[0m    test_unit
+[1m[32m      create[0m      test/models/employee_test.rb
+[1m[32m      create[0m      test/fixtures/employees.yml
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g model Employee name:string phoneno:integer designation:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCompany name:string phoneno:integer location:string email:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@igrate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbundle install[K[7Pls app/vi app/models/application_record.rb [22Pls app/models/[Krails g migrate Employee name:string phoneno:integer designation:string(10) designation:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCompany name:string phoneno:integer location:string email:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30PVender name:string location:string[C[C[1P[1P[1P[1P[1P[1P[1@o[1@d[1@e[1@l
+Running via Spring preloader in process 3310
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170111052018_create_venders.rb
+[1m[32m      create[0m    app/models/vender.rb
+[1m[37m      invoke[0m    test_unit
+[1m[32m      create[0m      test/models/vender_test.rb
+[1m[32m      create[0m      test/fixtures/venders.yml
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls app/models/
+application_record.rb  company.rb  [0m[01;34mconcerns[0m  employee.rb  vender.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails db:migrate
+== 20170111051912 CreateCompanies: migrating ==================================
+-- create_table(:companies)
+   -> 0.0024s
+== 20170111051912 CreateCompanies: migrated (0.0025s) =========================
+
+== 20170111051957 CreateEmployees: migrating ==================================
+-- create_table(:employees)
+   -> 0.0018s
+== 20170111051957 CreateEmployees: migrated (0.0020s) =========================
+
+== 20170111052018 CreateVenders: migrating ====================================
+-- create_table(:venders)
+   -> 0.0019s
+== 20170111052018 CreateVenders: migrated (0.0022s) ===========================
+
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls
+[0m[01;34mapp[0m  [01;34mbin[0m  [01;34mconfig[0m  config.ru  [01;34mdb[0m  Gemfile  Gemfile.lock  [01;34mlib[0m  [01;34mlog[0m  out  [01;34mpublic[0m  Rakefile  README.md  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi config.ru
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"config.ru" 5L, 130C[>c[1;1H[34m# This file is used by Rack-based servers to start the application.[m
+
+[35mrequire_relative[m [35m'[m[31mconfig/environment[m[35m'[m
+
+run [32mRails[m.application
+[1m[34m~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[K[41;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[41;1H[K[41;1H[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi config.ruls[Krails db:migratevi [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi app/models/Co[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls app/models
+application_record.rb  company.rb  [0m[01;34mconcerns[0m  employee.rb  vender.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi app/models/company.rb 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"app/models/company.rb" 2L, 38C[>c[1;1H[35mclass[m [32mCompany[m < [32mApplicationRecord[m
+[35mend[m
+[1m[34m~                                                                                                                                               [4;1H~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[1m-- INSERT --[m[41;13H[K[41;127H1,1[11CAll[1;1H[?12l[?25h[?25l[41;127H2[2;1H[?12l[?25h[?25l[2;1H[K[3;1H[35mend[m[3;4H[K[41;127H3[3;1H[?12l[?25h[?25l[41;127H2[2;1H[?12l[?25h[?25l[41;129H2-9[2;9H[?12l[?25h[?25lv[41;129H3-10[2;10H[?12l[?25h[?25la[41;129H4-11[2;11H[?12l[?25h[?25ll[41;129H5-12[2;12H[?12l[?25h[?25li[41;129H6-13[2;13H[?12l[?25h[?25ld[41;129H7-14[2;14H[?12l[?25h[?25la[41;129H8-15[2;15H[?12l[?25h[?25lt[41;129H9-16[2;16H[?12l[?25h[?25li[41;129H10-17[2;17H[?12l[?25h[?25lo[41;130H1-18[2;18H[?12l[?25h[?25ln[41;130H2-19[2;19H[?12l[?25h[?25l[41;130H3-20[2;20H[?12l[?25h[?25ln[41;130H4-21[2;21H[?12l[?25h[?25la[41;130H5-22[2;22H[?12l[?25h[?25lm[41;130H6-23[2;23H[?12l[?25h[?25le[41;130H7-24[2;24H[?12l[?25h[?25l:[41;130H8-25[2;25H[?12l[?25h[?25l[2;24H[K[41;130H7-24[2;24H[?12l[?25h[?25l[2;23H[K[41;130H6-23[2;23H[?12l[?25h[?25l[2;22H[K[41;130H5-22[2;22H[?12l[?25h[?25l[2;21H[K[41;130H4-21[2;21H[?12l[?25h[?25l[2;20H[K[41;130H3-20[2;20H[?12l[?25h[?25l[41;130H2-19[2;19H[?12l[?25h[?25l[2;18H[K[41;130H1-18[2;18H[?12l[?25h[?25l[2;17H[K[41;130H0-17[2;17H[?12l[?25h[?25l[2;16H[K[41;129H9-16 [2;16H[?12l[?25h[?25le[41;129H10-17[2;17H[?12l[?25h[?25ls[41;130H1-18[2;18H[?12l[?25h[?25l[2;17H[K[41;130H0-17[2;17H[?12l[?25h[?25l[2;16H[K[41;129H9-16 [2;16H[?12l[?25h[?25l[2;15H[K[41;129H8-15[2;15H[?12l[?25h[?25l[2;14H[K[41;129H7-14[2;14H[?12l[?25h[?25l[2;13H[K[41;129H6-13[2;13H[?12l[?25h[?25l[2;12H[K[41;129H5-12[2;12H[?12l[?25h[?25l[2;11H[K[41;129H4-11[2;11H[?12l[?25h[?25l[2;10H[K[41;129H3-10[2;10H[?12l[?25h[?25l[2;9H[K[41;129H2-9 [2;9H[?12l[?25h[?25l[41;129H1  [2;1H[?12l[?25h[?25l[1;40r[40;1H
+[1;41r[1;1H[35mclass[m [32mCompany[m < [32mApplicationRecord[m[40;1H[1m[34m~                                                                                                                                               [m[41;127H[K[41;127H1,34[10CAll[1;34H[?12l[?25h[41;1H[K[1;33H[?25l[41;127H1,33[10CAll[1;33H[?12l[?25h[?25l[41;1H[1m-- INSERT --[m[41;127H[K[41;127H1,33[10CAll[1;33H[?12l[?25h[?25l[41;130H4[1;34H[?12l[?25h[?25l[2;40r[2;1H[L[1;41r[41;127H[K[41;127H2,1[11CAll[2;1H[?12l[?25h[?25l[41;129H2-9[2;9H[?12l[?25h[?25l[41;129H1  [2;1H[?12l[?25h[?25l[41;129H2[2;2H[?12l[?25h[?25l[41;129H3[2;3H[?12l[?25h[?25lv[41;129H4[2;4H[?12l[?25h[?25la[41;129H5[2;5H[?12l[?25h[?25ll[41;129H6[2;6H[?12l[?25h[?25li[41;129H7[2;7H[?12l[?25h[?25ld[41;129H8[2;8H[?12l[?25h[?25la[41;129H9[2;9H[?12l[?25h[?25lt[41;129H10[2;10H[?12l[?25h[?25le[41;130H1[2;11H[?12l[?25h[?25ls[41;130H2[2;12H[?12l[?25h[?25l[41;130H3[2;13H[?12l[?25h[?25l:[41;130H4[2;14H[?12l[?25h[?25l[31m:n[m[41;130H5[2;15H[?12l[?25h[?25l[31ma[m[41;130H6[2;16H[?12l[?25h[?25l[31mm[m[41;130H7[2;17H[?12l[?25h[?25l[31me[m[41;130H8[2;18H[?12l[?25h[?25l[41;130H9[2;19H[?12l[?25h[?25l[41;130H8[2;18H[?12l[?25h[?25l[41;130H9[2;19H[?12l[?25h[?25l,[41;129H20[2;20H[?12l[?25h[?25l[41;130H1[2;21H[?12l[?25h[?25l[41;130H0[2;20H[?12l[?25h[?25l:[41;130H1[2;21H[?12l[?25h[?25l[31m:l[m[41;130H2[2;22H[?12l[?25h[?25l[31mo[m[41;130H3[2;23H[?12l[?25h[?25l[31ma[m[41;130H4[2;24H[?12l[?25h[?25l[2;23H[K[41;130H3[2;23H[?12l[?25h[?25l[31mc[m[41;130H4[2;24H[?12l[?25h[?25l[31ma[m[41;130H5[2;25H[?12l[?25h[?25l[31mt[m[41;130H6[2;26H[?12l[?25h[?25l[31mi[m[41;130H7[2;27H[?12l[?25h[?25l[31mo[m[41;130H8[2;28H[?12l[?25h[?25l[31mn[m[41;130H9[2;29H[?12l[?25h[?25l,[41;129H30[2;30H[?12l[?25h[?25l:[41;130H1[2;31H[?12l[?25h[?25l[2;30H[K[41;130H0[2;30H[?12l[?25h[?25l[2;29H[K[41;129H29[2;29H[?12l[?25h[?25l,[41;129H30[2;30H[?12l[?25h[?25l[2;29H[K[41;129H29[2;29H[?12l[?25h[?25l,[41;129H30[2;30H[?12l[?25h[?25l[41;129H29[2;29H[?12l[?25h[?25l[41;130H8[2;28H[?12l[?25h[?25l[41;130H7[2;27H[?12l[?25h[?25l[41;130H6[2;26H[?12l[?25h[?25l[41;130H5[2;25H[?12l[?25h[?25l[41;130H4[2;24H[?12l[?25h[?25l[41;130H3[2;23H[?12l[?25h[?25l[41;130H2[2;22H[?12l[?25h[?25l[41;130H1[2;21H[?12l[?25h[?25l[41;130H0[2;20H[?12l[?25h[?25l[41;129H19[2;19H[?12l[?25h[?25l,[31m:location[m,[2;29H[K[41;130H8[2;18H[?12l[?25h[?25l[41;130H9[2;19H[?12l[?25h[?25l [31m:location[m,[41;129H20[2;20H[?12l[?25h[?25l[41;130H1[2;21H[?12l[?25h[?25l[41;130H2[2;22H[?12l[?25h[?25l[41;130H3[2;23H[?12l[?25h[?25l[41;130H4[2;24H[?12l[?25h[?25l[41;130H5[2;25H[?12l[?25h[?25l[41;130H6[2;26H[?12l[?25h[?25l[41;130H7[2;27H[?12l[?25h[?25l[41;130H8[2;28H[?12l[?25h[?25l[41;130H9[2;29H[?12l[?25h[?25l ,[41;129H30[2;30H[?12l[?25h[?25l,[2;30H[K[41;129H29[2;29H[?12l[?25h[?25l[41;129H30[2;30H[?12l[?25h[?25l[41;130H1[2;31H[?12l[?25h[?25l:[41;130H2[2;32H[?12l[?25h[?25l[31m:e[m[41;130H3[2;33H[?12l[?25h[?25l[31mm[m[41;130H4[2;34H[?12l[?25h[?25l[31ma[m[41;130H5[2;35H[?12l[?25h[?25l[31mi[m[41;130H6[2;36H[?12l[?25h[?25l[31ml[m[41;130H7[2;37H[?12l[?25h[?25l[41;130H8[2;38H[?12l[?25h[?25l[41;130H7[2;37H[?12l[?25h[?25l,[41;130H8[2;38H[?12l[?25h[?25l[41;130H9[2;39H[?12l[?25h[?25lp[41;129H40[2;40H[?12l[?25h[?25lr[41;130H1[2;41H[?12l[?25h[?25le[41;130H2[2;42H[?12l[?25h[?25ls[41;130H3[2;43H[?12l[?25h[?25le[41;130H4[2;44H[?12l[?25h[?25ln[41;130H5[2;45H[?12l[?25h[?25lc[41;130H6[2;46H[?12l[?25h[?25le[41;130H7[2;47H[?12l[?25h[?25l[2;39H[31mpresence[m:[41;130H8[2;48H[?12l[?25h[?25l[41;130H9[2;49H[?12l[?25h[?25l{
+end[41;127H[K[41;127H2,50[10CAll[2;50H[?12l[?25h[?25lc[41;130H1[2;51H[?12l[?25h[?25la[41;130H2[2;52H[?12l[?25h[?25ls[41;130H3[2;53H[?12l[?25h[?25l[33mcase
+end[m[41;130H4[2;54H[?12l[?25h[?25l[41;130H5-57[2;57H[?12l[?25h[?25l[41;130H4   [2;54H[?12l[?25h[?25lcase_
+end[41;130H5[2;55H[?12l[?25h[?25l[41;130H6-57[2;57H[?12l[?25h[?25l[41;130H5   [2;55H[?12l[?25h[?25ls[41;130H6[2;56H[?12l[?25h[?25le[41;130H7[2;57H[?12l[?25h[?25ln[41;130H8[2;58H[?12l[?25h[?25ls[41;130H9[2;59H[?12l[?25h[?25li[41;129H60[2;60H[?12l[?25h[?25lt[41;130H1[2;61H[?12l[?25h[?25li[41;130H2[2;62H[?12l[?25h[?25lv[41;130H3[2;63H[?12l[?25h[?25le[41;130H4[2;64H[?12l[?25h[?25l[41;130H5[2;65H[?12l[?25h[?25l:[41;130H6[2;66H[?12l[?25h[?25l[31m:f[m[41;130H7[2;67H[?12l[?25h[?25l[31ma[m[41;130H8[2;68H[?12l[?25h[?25l[31ms[m[41;130H9[2;69H[?12l[?25h[?25l[31me[m[41;129H70[2;70H[?12l[?25h[?25l[2;69H[K[41;129H69[2;69H[?12l[?25h[?25l[2;68H[K[41;130H8[2;68H[?12l[?25h[?25l[2;67H[K[41;130H7[2;67H[?12l[?25h[?25l:[2;66H[K[41;130H6[2;66H[?12l[?25h[?25l[2;65H[K[41;130H5[2;65H[?12l[?25h[?25l[41;130H4[2;64H[?12l[?25h[?25l[2;50H[31mcase_sensitive[m:[41;130H5[2;65H[?12l[?25h[?25l[41;130H6[2;66H[?12l[?25h[?25lf[41;130H7[2;67H[?12l[?25h[?25ll[41;130H8[2;68H[?12l[?25h[?25la[41;130H9[2;69H[?12l[?25h[?25ls[41;129H70[2;70H[?12l[?25h[?25le[41;130H1[2;71H[?12l[?25h[?25l[2;70H[K[41;130H0[2;70H[?12l[?25h[?25l[2;69H[K[41;129H69[2;69H[?12l[?25h[?25l[2;68H[K[41;130H8[2;68H[?12l[?25h[?25l[2;67H[K[41;130H7[2;67H[?12l[?25h[?25la[41;130H8[2;68H[?12l[?25h[?25ll[41;130H9[2;69H[?12l[?25h[?25ls[41;129H70[2;70H[?12l[?25h[?25l[31mfalse[m[41;130H1[2;71H[?12l[?25h[?25l}
+[35mend[m[2;49H[46m{[21C}[m[41;127H[K[41;127H2,72[10CAll[2;72H[?12l[?25h[?25l[3;40r[3;1H[L[1;41r[41;127H[K[41;127H3,1[11CAll[2;49H{[21C}
+[?12l[?25h[?25l[41;129H2[3;2H[?12l[?25h[?25l[41;129H3[3;3H[?12l[?25h[?25lv[41;129H4[3;4H[?12l[?25h[?25la[41;129H5[3;5H[?12l[?25h[?25ll[41;129H6[3;6H[?12l[?25h[?25li[41;129H7[3;7H[?12l[?25h[?25ld[41;129H8[3;8H[?12l[?25h[?25la[41;129H9[3;9H[?12l[?25h[?25lt[41;129H10[3;10H[?12l[?25h[?25le[41;130H1[3;11H[?12l[?25h[?25l[41;130H2[3;12H[?12l[?25h[?25l[41;130H1[3;11H[?12l[?25h[?25ls[41;130H2[3;12H[?12l[?25h[?25l[41;130H3[3;13H[?12l[?25h[?25l:[41;130H4[3;14H[?12l[?25h[?25l[31m:p[m[41;130H5[3;15H[?12l[?25h[?25l[31mh[m[41;130H6[3;16H[?12l[?25h[?25l[31mo[m[41;130H7[3;17H[?12l[?25h[?25l[31mn[m[41;130H8[3;18H[?12l[?25h[?25l[31me[m[41;130H9[3;19H[?12l[?25h[?25l,[41;129H20[3;20H[?12l[?25h[?25l[41;130H1[3;21H[?12l[?25h[?25ln[41;130H2[3;22H[?12l[?25h[?25lu[41;130H3[3;23H[?12l[?25h[?25lm[41;130H4[3;24H[?12l[?25h[?25lr[41;130H5[3;25H[?12l[?25h[?25l[3;24H[K[41;130H4[3;24H[?12l[?25h[?25le[41;130H5[3;25H[?12l[?25h[?25lr[41;130H6[3;26H[?12l[?25h[?25li[41;130H7[3;27H[?12l[?25h[?25lc[41;130H8[3;28H[?12l[?25h[?25la[41;130H9[3;29H[?12l[?25h[?25ll[41;129H30[3;30H[?12l[?25h[?25li[41;130H1[3;31H[?12l[?25h[?25lt[41;130H2[3;32H[?12l[?25h[?25ly[41;130H3[3;33H[?12l[?25h[?25l[3;21H[31mnumericality[m:[41;130H4[3;34H[?12l[?25h[?25l[41;130H5[3;35H[?12l[?25h[?25l{
+end[41;127H[K[41;127H3,36[10CAll[3;36H[?12l[?25h[?25l[41;130H7[3;37H[?12l[?25h[?25lo[41;130H8[3;38H[?12l[?25h[?25l[3;37H[K[41;130H7[3;37H[?12l[?25h[?25l[41;127H[K[41;127H3,36[10CAll[3;36H[?12l[?25h[?25lo[41;130H7[3;37H[?12l[?25h[?25ln[41;130H8[3;38H[?12l[?25h[?25ll[41;130H9[3;39H[?12l[?25h[?25lh[41;129H40[3;40H[?12l[?25h[?25ly[41;130H1[3;41H[?12l[?25h[?25l[3;40H[K[41;130H0[3;40H[?12l[?25h[?25l[3;39H[K[41;129H39[3;39H[?12l[?25h[?25ly[41;129H40[3;40H[?12l[?25h[?25l_[41;130H1[3;41H[?12l[?25h[?25li[41;130H2[3;42H[?12l[?25h[?25ln[41;130H3[3;43H[?12l[?25h[?25lt[41;130H4[3;44H[?12l[?25h[?25le[41;130H5[3;45H[?12l[?25h[?25lg[41;130H6[3;46H[?12l[?25h[?25le[41;130H7[3;47H[?12l[?25h[?25lr[41;130H8[3;48H[?12l[?25h[?25l[3;36H[31monly_integer[m:[41;130H9[3;49H[?12l[?25h[?25l[41;129H50[3;50H[?12l[?25h[?25lt[41;130H1[3;51H[?12l[?25h[?25lr[41;130H2[3;52H[?12l[?25h[?25lu[41;130H3[3;53H[?12l[?25h[?25l[31mtrue[m[41;130H4[3;54H[?12l[?25h[?25l}
+[35mend[m[3;35H[46m{[18C}[m[41;127H[K[41;127H3,55[10CAll[3;55H[?12l[?25h[?25l[3;35H{[18C}[41;130H6[3;56H[?12l[?25h[?25l[3;35H[46m{[18C}[m[41;127H[K[41;127H3,55[10CAll[3;55H[?12l[?25h[?25l,[3;35H{[18C}[41;130H6[3;56H[?12l[?25h[?25l[41;130H7[3;57H[?12l[?25h[?25l[32mU[m[41;130H8[3;58H[?12l[?25h[?25l[32mn[m[41;130H9[3;59H[?12l[?25h[?25l[32mi[m[41;129H60[3;60H[?12l[?25h[?25l[3;59H[K[41;129H59[3;59H[?12l[?25h[?25l[3;58H[K[41;130H8[3;58H[?12l[?25h[?25l[3;57H[K[41;130H7[3;57H[?12l[?25h[?25lu[41;130H8[3;58H[?12l[?25h[?25ln[41;130H9[3;59H[?12l[?25h[?25li[41;129H60[3;60H[?12l[?25h[?25lq[41;130H1[3;61H[?12l[?25h[?25lu[41;130H2[3;62H[?12l[?25h[?25le[41;130H3[3;63H[?12l[?25h[?25ln[41;130H4[3;64H[?12l[?25h[?25le[41;130H5[3;65H[?12l[?25h[?25ls[41;130H6[3;66H[?12l[?25h[?25ls[41;130H7[3;67H[?12l[?25h[?25l[3;57H[31muniqueness[m:[41;130H8[3;68H[?12l[?25h[?25l[41;130H9[3;69H[?12l[?25h[?25lt[41;129H70[3;70H[?12l[?25h[?25lr[41;130H1[3;71H[?12l[?25h[?25lu[41;130H2[3;72H[?12l[?25h[?25l[31mtrue[m[41;130H3[3;73H[?12l[?25h[41;1H[K[3;72H[?25l[41;127H3,72[10CAll[3;72H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[41;3H[K[41;3H[?12l[?25h[?25l[41;2H[K[41;2H[?12l[?25h [?25l[125C3,72[10CAll[3;72H[?12l[?25h[?25l[41;1H[1m-- INSERT --[m[41;127H[K[41;127H3,72[10CAll[3;72H[?12l[?25h[?25l[41;130H3[3;73H[?12l[?25h[?25l[41;130H2[3;72H[?12l[?25h[?25l[41;130H1[3;71H[?12l[?25h[?25l[41;130H0[3;70H[?12l[?25h[?25l[41;129H69[3;69H[?12l[?25h[?25l[41;130H8[3;68H[?12l[?25h[?25l[41;130H7[3;67H[?12l[?25h[?25l[41;130H6[3;66H[?12l[?25h[?25l[41;130H5[3;65H[?12l[?25h[?25l[41;130H4[3;64H[?12l[?25h[?25l[41;130H3[3;63H[?12l[?25h[?25l[41;130H2[3;62H[?12l[?25h[?25l[41;130H1[3;61H[?12l[?25h[?25l[41;130H0[3;60H[?12l[?25h[?25l[41;129H59[3;59H[?12l[?25h[?25l[41;130H8[3;58H[?12l[?25h[?25l[41;130H7[3;57H[?12l[?25h[?25l[41;130H6[3;56H[?12l[?25h[?25l[3;35H[46m{[18C}[m[41;127H[K[41;127H3,55[10CAll[3;55H[?12l[?25h[?25l[41;130H4[3;54H[?12l[?25h[?25l[3;35H{[18C}[41;130H3[3;53H[?12l[?25h[?25l[41;130H2[3;52H[?12l[?25h[?25l[41;130H1[3;51H[?12l[?25h[?25l[41;130H0[3;50H[?12l[?25h[?25l[41;129H49[3;49H[?12l[?25h[?25l[41;130H8[3;48H[?12l[?25h[?25l[41;130H7[3;47H[?12l[?25h[?25l[41;130H6[3;46H[?12l[?25h[?25l[41;130H5[3;45H[?12l[?25h[?25l[41;130H4[3;44H[?12l[?25h[?25l[41;130H3[3;43H[?12l[?25h[?25l[41;130H2[3;42H[?12l[?25h[?25l[41;130H1[3;41H[?12l[?25h[?25l[41;130H0[3;40H[?12l[?25h[?25l[41;129H39[3;39H[?12l[?25h[?25l[41;130H8[3;38H[?12l[?25h[?25l[41;130H7[3;37H[?12l[?25h[?25l[46m{[18C}[m[41;127H[K[41;127H3,36[10CAll[3;36H[?12l[?25h[?25l[41;130H5[3;35H[?12l[?25h[?25l{[18C}[41;130H4[3;34H[?12l[?25h[?25l[41;130H3[3;33H[?12l[?25h[?25l[41;130H2[3;32H[?12l[?25h[?25l[41;130H1[3;31H[?12l[?25h[?25l[41;130H2[3;32H[?12l[?25h[41;1H[K[3;31H[?25l[41;127H3,31[10CAll[3;31H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"app/models/company.rb" 4L, 183C written
+[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi app/models/employee.rb 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"app/models/employee.rb" 2L, 39C[>c[1;1H[35mclass[m [32mEmployee[m < [32mApplicationRecord[m
+[35mend[m
+[1m[34m~                                                                                                                                               [4;1H~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[1m-- INSERT --[m[41;13H[K[41;127H1,1[11CAll[1;1H[?12l[?25h[?25l[41;127H2[2;1H[?12l[?25h[?25l[2;1H[K[3;1H[35mend[m[3;4H[K[41;127H3[3;1H[?12l[?25h[?25l[41;127H2[2;1H[?12l[?25h[?25l[41;129H2[2;2H[?12l[?25h[?25l[41;129H3[2;3H[?12l[?25h[?25lv[41;129H4[2;4H[?12l[?25h[?25la[41;129H5[2;5H[?12l[?25h[?25ll[41;129H6[2;6H[?12l[?25h[?25li[41;129H7[2;7H[?12l[?25h[?25ld[41;129H8[2;8H[?12l[?25h[?25la[41;129H9[2;9H[?12l[?25h[?25lt[41;129H10[2;10H[?12l[?25h[?25le[41;130H1[2;11H[?12l[?25h[?25ls[41;130H2[2;12H[?12l[?25h[?25l[41;130H3[2;13H[?12l[?25h[?25lp[41;130H4[2;14H[?12l[?25h[?25lh[41;130H5[2;15H[?12l[?25h[?25lo[41;130H6[2;16H[?12l[?25h[?25ln[41;130H7[2;17H[?12l[?25h[?25le[41;130H8[2;18H[?12l[?25h[?25l[2;17H[K[41;130H7[2;17H[?12l[?25h[?25l[2;16H[K[41;130H6[2;16H[?12l[?25h[?25l[2;15H[K[41;130H5[2;15H[?12l[?25h[?25l[2;14H[K[41;130H4[2;14H[?12l[?25h[?25l[2;13H[K[41;130H3[2;13H[?12l[?25h[?25l:[41;130H4[2;14H[?12l[?25h[?25l[31m:p[m[41;130H5[2;15H[?12l[?25h[?25l[31mh[m[41;130H6[2;16H[?12l[?25h[?25l[31mo[m[41;130H7[2;17H[?12l[?25h[?25l[31mn[m[41;130H8[2;18H[?12l[?25h[?25l[31me[m[41;130H9[2;19H[?12l[?25h[?25l[41;129H20[2;20H[?12l[?25h[?25l,[41;130H1[2;21H[?12l[?25h[?25l[2;20H[K[41;130H0[2;20H[?12l[?25h[?25l[41;129H19[2;19H[?12l[?25h[?25l,[41;129H20[2;20H[?12l[?25h[?25l[41;130H1[2;21H[?12l[?25h[?25ln[41;130H2[2;22H[?12l[?25h[?25lu[41;130H3[2;23H[?12l[?25h[?25lm[41;130H4[2;24H[?12l[?25h[?25le[41;130H5[2;25H[?12l[?25h[?25lr[41;130H6[2;26H[?12l[?25h[?25li[41;130H7[2;27H[?12l[?25h[?25lc[41;130H8[2;28H[?12l[?25h[?25la[41;130H9[2;29H[?12l[?25h[?25ll[41;129H30[2;30H[?12l[?25h[?25li[41;130H1[2;31H[?12l[?25h[?25lt[41;130H2[2;32H[?12l[?25h[?25ly[41;130H3[2;33H[?12l[?25h[?25l[2;21H[31mnumericality[m:[41;130H4[2;34H[?12l[?25h[?25l[41;130H5[2;35H[?12l[?25h[?25l[41;130H4[2;34H[?12l[?25h[?25l[41;130H5[2;35H[?12l[?25h[?25l[41;130H4[2;34H[?12l[?25h[?25l[41;130H5[2;35H[?12l[?25h[?25l[41;130H4[2;34H[?12l[?25h[?25l[2;21Hnumericality[2;33H[K[41;130H3[2;33H[?12l[?25h[?25l[2;32H[K[41;130H2[2;32H[?12l[?25h[?25l[2;31H[K[41;130H1[2;31H[?12l[?25h[?25l[2;30H[K[41;130H0[2;30H[?12l[?25h[41;1H[K[2;29H[?25l[41;127H2,29[10CAll[2;29H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"app/models/employee.rb" 3L, 69C written
+[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi app/models/employee.rb [1Pcompany[C[C[C[C
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"app/models/company.rb" 4L, 183C[>c[1;1H[35mclass[m [32mCompany[m < [32mApplicationRecord[m
+  validates [31m:name[m, [31m:location[m, [31m:email[m, [31mpresence[m: {[31mcase_sensitive[m: [31mfalse[m}
+  validates [31m:phone[m, [31mnumericality[m: {[31monly_integer[m: [31mtrue[m}, [31muniqueness[m: [31mtrue[m
+[35mend[m
+[1m[34m~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[K[41;1H:[?12l[?25h [?25l[125C1,1[11CAll[1;1H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[41;1H[K[41;1H[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ Company
+Company: command not found
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ Companyvi app/models/company.rb [1@employee[C[C[C[C[1Pcompany[C[C[C[CCompany[K[Kls bin/
+[0m[01;32mbundle[0m  [01;32mrails[0m  [01;32mrake[0m  [01;32msetup[0m  [01;32mspring[0m  [01;32mupdate[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls conif[K[Kfig
+application.rb  cable.yml     environment.rb  [0m[01;34minitializers[0m  puma.rb    secrets.yml
+boot.rb         database.yml  [01;34menvironments[0m    [01;34mlocales[0m       routes.rb  spring.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls lib
+[0m[01;34massets[0m  [01;34mtasks[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls public
+404.html  422.html  500.html  [0m[01;35mapple-touch-icon.png[0m  [01;35mapple-touch-icon-precomposed.png[0m  favicon.ico  robots.txt
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls app/[K
+[0m[01;34massets[0m  [01;34mchannels[0m  [01;34mcontrollers[0m  [01;34mhelpers[0m  [01;34mjobs[0m  [01;34mmailers[0m  [01;34mmodels[0m  [01;34mviews[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls apppublic[3Plibconfig[2Pbin/Companyvi app/models/company.rb [K[K[K[K[K[K[K[K[K[K[Kemployee.rb
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"app/models/employee.rb" 3L, 69C[>c[1;1H[35mclass[m [32mEmployee[m < [32mApplicationRecord[m
+  validates [31m:phone[m, numerical
+[35mend[m
+[1m[34m~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;127H2[2;1H[?12l[?25h[?25l[41;129H2[2;2H[?12l[?25h[?25l[41;129H3[2;3H[?12l[?25h[?25l[41;129H4[2;4H[?12l[?25h[?25l[41;129H5[2;5H[?12l[?25h[?25l[41;129H6[2;6H[?12l[?25h[?25l[41;129H7[2;7H[?12l[?25h[?25l[41;129H8[2;8H[?12l[?25h[?25l[41;129H9[2;9H[?12l[?25h[?25l[41;129H10[2;10H[?12l[?25h[?25l[41;130H1[2;11H[?12l[?25h[?25l[41;130H2[2;12H[?12l[?25h[?25l[41;130H3[2;13H[?12l[?25h[?25l[41;130H4[2;14H[?12l[?25h[?25l[41;130H5[2;15H[?12l[?25h[?25l[41;130H6[2;16H[?12l[?25h[?25l[41;130H7[2;17H[?12l[?25h[?25l[41;130H8[2;18H[?12l[?25h[?25l[41;130H9[2;19H[?12l[?25h[?25l[41;129H20[2;20H[?12l[?25h[?25l[41;130H1[2;21H[?12l[?25h[?25l[41;130H2[2;22H[?12l[?25h[?25l[41;130H3[2;23H[?12l[?25h[?25l[41;130H4[2;24H[?12l[?25h[?25l[41;130H5[2;25H[?12l[?25h[?25l[41;130H6[2;26H[?12l[?25h[?25l[41;130H7[2;27H[?12l[?25h[?25l[41;130H8[2;28H[?12l[?25h[?25l[41;130H9[2;29H[?12l[?25h[?25l[41;1H[1m-- INSERT --[m[41;13H[K[41;127H2,29[10CAll[2;29H[?12l[?25h[?25l[41;129H30[2;30H[?12l[?25h[?25li[41;130H1[2;31H[?12l[?25h[?25lt[41;130H2[2;32H[?12l[?25h[?25ly[41;130H3[2;33H[?12l[?25h[?25l[2;21H[31mnumericality[m:[41;130H4[2;34H[?12l[?25h[?25l[41;130H5[2;35H[?12l[?25h[?25l{
+end[41;127H[K[41;127H2,36[10CAll[2;36H[?12l[?25h[?25lo[41;130H7[2;37H[?12l[?25h[?25ln[41;130H8[2;38H[?12l[?25h[?25ll[41;130H9[2;39H[?12l[?25h[?25ly[41;129H40[2;40H[?12l[?25h[?25l_[41;130H1[2;41H[?12l[?25h[?25li[41;130H2[2;42H[?12l[?25h[?25ln[41;130H3[2;43H[?12l[?25h[?25lt[41;130H4[2;44H[?12l[?25h[?25le[41;130H5[2;45H[?12l[?25h[?25lg[41;130H6[2;46H[?12l[?25h[?25le[41;130H7[2;47H[?12l[?25h[?25lr[41;130H8[2;48H[?12l[?25h[?25l[2;36H[31monly_integer[m:[41;130H9[2;49H[?12l[?25h[?25l[41;129H50[2;50H[?12l[?25h[?25lt[41;130H1[2;51H[?12l[?25h[?25lr[41;130H2[2;52H[?12l[?25h[?25lu[41;130H3[2;53H[?12l[?25h[?25l[31mtrue[m[41;130H4[2;54H[?12l[?25h[?25l[41;130H5[2;55H[?12l[?25h[?25l[41;130H4[2;54H[?12l[?25h[?25l}
+[35mend[m[2;35H[46m{[18C}[m[41;127H[K[41;127H2,55[10CAll[2;55H[?12l[?25h[?25l[2;35H{[18C}[41;130H6[2;56H[?12l[?25h[?25lu[41;130H7[2;57H[?12l[?25h[?25ln[41;130H8[2;58H[?12l[?25h[?25li[41;130H9[2;59H[?12l[?25h[?25lg[41;129H60[2;60H[?12l[?25h[?25l[2;59H[K[41;129H59[2;59H[?12l[?25h[?25lq[41;129H60[2;60H[?12l[?25h[?25lu[41;130H1[2;61H[?12l[?25h[?25le[41;130H2[2;62H[?12l[?25h[?25ln[41;130H3[2;63H[?12l[?25h[?25le[41;130H4[2;64H[?12l[?25h[?25ls[41;130H5[2;65H[?12l[?25h[?25ls[41;130H6[2;66H[?12l[?25h[?25l:[41;130H7[2;67H[?12l[?25h[?25l[2;66H[K[41;130H6[2;66H[?12l[?25h[?25l[2;65H[K[41;130H5[2;65H[?12l[?25h[?25l[2;64H[K[41;130H4[2;64H[?12l[?25h[?25l[2;63H[K[41;130H3[2;63H[?12l[?25h[?25l[2;62H[K[41;130H2[2;62H[?12l[?25h[?25l[2;61H[K[41;130H1[2;61H[?12l[?25h[?25l[2;60H[K[41;130H0[2;60H[?12l[?25h[?25l[2;59H[K[41;129H59[2;59H[?12l[?25h[?25l[2;58H[K[41;130H8[2;58H[?12l[?25h[?25l[2;57H[K[41;130H7[2;57H[?12l[?25h[?25l[2;56H[K[41;130H6[2;56H[?12l[?25h[?25l[2;35H[46m{[18C}[m[41;127H[K[41;127H2,55[10CAll[2;55H[?12l[?25h[?25l,[2;35H{[18C}[41;130H6[2;56H[?12l[?25h[?25l[41;130H7[2;57H[?12l[?25h[?25lu[41;130H8[2;58H[?12l[?25h[?25ln[41;130H9[2;59H[?12l[?25h[?25li[41;129H60[2;60H[?12l[?25h[?25lq[41;130H1[2;61H[?12l[?25h[?25lu[41;130H2[2;62H[?12l[?25h[?25le[41;130H3[2;63H[?12l[?25h[?25ln[41;130H4[2;64H[?12l[?25h[?25le[41;130H5[2;65H[?12l[?25h[?25ls[41;130H6[2;66H[?12l[?25h[?25ls[41;130H7[2;67H[?12l[?25h[?25l[2;57H[31muniqueness[m:[41;130H8[2;68H[?12l[?25h[?25l[41;130H9[2;69H[?12l[?25h[?25lt[41;129H70[2;70H[?12l[?25h[?25lr[41;130H1[2;71H[?12l[?25h[?25lu[41;130H2[2;72H[?12l[?25h[?25l[31mtrue[m[41;130H3[2;73H[?12l[?25h[?25l[3;40r[3;1H[L[1;41r[41;127H[K[41;127H3,1[11CAll[3;1H[?12l[?25h[?25l[41;129H2[3;2H[?12l[?25h[?25l[41;129H3[3;3H[?12l[?25h[?25ld[41;129H4[3;4H[?12l[?25h[?25le[41;129H5[3;5H[?12l[?25h[?25ls[41;129H6[3;6H[?12l[?25h[?25li[41;129H7[3;7H[?12l[?25h[?25lg[41;129H8[3;8H[?12l[?25h[?25ln[41;129H9[3;9H[?12l[?25h[?25la[41;129H10[3;10H[?12l[?25h[?25lt[41;130H1[3;11H[?12l[?25h[?25li[41;130H2[3;12H[?12l[?25h[?25lo[41;130H3[3;13H[?12l[?25h[?25ln[41;130H4[3;14H[?12l[?25h[?25l[41;130H5[3;15H[?12l[?25h[?25l[41;130H4[3;14H[?12l[?25h[?25l[3;13H[K[41;130H3[3;13H[?12l[?25h[?25l[3;12H[K[41;130H2[3;12H[?12l[?25h[?25l[3;11H[K[41;130H1[3;11H[?12l[?25h[?25l[3;10H[K[41;130H0[3;10H[?12l[?25h[?25l[3;9H[K[41;129H9 [3;9H[?12l[?25h[?25l[3;8H[K[41;129H8[3;8H[?12l[?25h[?25l[3;7H[K[41;129H7[3;7H[?12l[?25h[?25l[3;6H[K[41;129H6[3;6H[?12l[?25h[?25l[3;5H[K[41;129H5[3;5H[?12l[?25h[?25l[3;4H[K[41;129H4[3;4H[?12l[?25h[?25l[3;3H[K[41;129H3[3;3H[?12l[?25h[?25lv[41;129H4[3;4H[?12l[?25h[?25la[41;129H5[3;5H[?12l[?25h[?25ll[41;129H6[3;6H[?12l[?25h[?25li[41;129H7[3;7H[?12l[?25h[?25ld[41;129H8[3;8H[?12l[?25h[?25la[41;129H9[3;9H[?12l[?25h[?25lt[41;129H10[3;10H[?12l[?25h[?25le[41;130H1[3;11H[?12l[?25h[?25ls[41;130H2[3;12H[?12l[?25h[?25l[41;130H3[3;13H[?12l[?25h[?25l:[41;130H4[3;14H[?12l[?25h[?25l[31m:d[m[41;130H5[3;15H[?12l[?25h[?25l[31me[m[41;130H6[3;16H[?12l[?25h[?25l[31ms[m[41;130H7[3;17H[?12l[?25h[?25l[31mi[m[41;130H8[3;18H[?12l[?25h[?25l[31mg[m[41;130H9[3;19H[?12l[?25h[?25l[31mn[m[41;129H20[3;20H[?12l[?25h[?25l[31ma[m[41;130H1[3;21H[?12l[?25h[?25l[31mt[m[41;130H2[3;22H[?12l[?25h[?25l[31mi[m[41;130H3[3;23H[?12l[?25h[?25l[31mo[m[41;130H4[3;24H[?12l[?25h[?25l[31mn[m[41;130H5[3;25H[?12l[?25h[?25l[41;130H6[3;26H[?12l[?25h[?25l[41;130H5[3;25H[?12l[?25h[?25l,[41;130H6[3;26H[?12l[?25h[?25lu[41;130H7[3;27H[?12l[?25h[?25ln[41;130H8[3;28H[?12l[?25h[?25li[41;130H9[3;29H[?12l[?25h[?25l[3;28H[K[41;130H8[3;28H[?12l[?25h[?25l[3;27H[K[41;130H7[3;27H[?12l[?25h[?25l[3;26H[K[41;130H6[3;26H[?12l[?25h[?25lp[41;130H7[3;27H[?12l[?25h[?25lr[41;130H8[3;28H[?12l[?25h[?25le[41;130H9[3;29H[?12l[?25h[?25ls[41;129H30[3;30H[?12l[?25h[?25le[41;130H1[3;31H[?12l[?25h[?25ln[41;130H2[3;32H[?12l[?25h[?25lc[41;130H3[3;33H[?12l[?25h[?25le[41;130H4[3;34H[?12l[?25h[?25l[3;26H[31mpresence[m:[41;130H5[3;35H[?12l[?25h[?25l[41;130H6[3;36H[?12l[?25h[?25lt[41;130H7[3;37H[?12l[?25h[?25lr[41;130H8[3;38H[?12l[?25h[?25lu[41;130H9[3;39H[?12l[?25h[?25l[31mtrue[m[41;129H40[3;40H[?12l[?25h[?25ltru[3;39H[K[41;129H39[3;39H[?12l[?25h[?25l[3;38H[K[41;130H8[3;38H[?12l[?25h[?25l[3;37H[K[41;130H7[3;37H[?12l[?25h[?25l[3;36H[K[41;130H6[3;36H[?12l[?25h[?25l{
+end[41;127H[K[41;127H3,37[10CAll[3;37H[?12l[?25h[?25lc[41;130H8[3;38H[?12l[?25h[?25la[41;130H9[3;39H[?12l[?25h[?25ls[41;129H40[3;40H[?12l[?25h[?25l[33mcase
+end[m[41;130H1[3;41H[?12l[?25h[?25lcase_
+end[41;130H2[3;42H[?12l[?25h[?25ls[41;130H3[3;43H[?12l[?25h[?25le[41;130H4[3;44H[?12l[?25h[?25ln[41;130H5[3;45H[?12l[?25h[?25ls[41;130H6[3;46H[?12l[?25h[?25li[41;130H7[3;47H[?12l[?25h[?25lt[41;130H8[3;48H[?12l[?25h[?25li[41;130H9[3;49H[?12l[?25h[?25lv[41;129H50[3;50H[?12l[?25h[?25li[41;130H1[3;51H[?12l[?25h[?25lt[41;130H2[3;52H[?12l[?25h[?25ly[41;130H3[3;53H[?12l[?25h[?25l[3;37H[31mcase_sensitivity[m:[41;130H4[3;54H[?12l[?25h[?25l[41;130H5[3;55H[?12l[?25h[?25lf[41;130H6[3;56H[?12l[?25h[?25la[41;130H7[3;57H[?12l[?25h[?25ll[41;130H8[3;58H[?12l[?25h[?25ls[41;130H9[3;59H[?12l[?25h[?25l[31mfalse[m[41;129H60[3;60H[?12l[?25h[?25l[41;130H1[3;61H[?12l[?25h[?25l[41;130H0[3;60H[?12l[?25h[?25l}
+[35mend[m[3;36H[46m{[23C}[m[41;127H[K[41;127H3,61[10CAll[3;61H[?12l[?25h[?25l[3;36H{[23C}[41;130H2[3;62H[?12l[?25h[?25l[3;36H[46m{[23C}[m[41;127H[K[41;127H3,61[10CAll[3;61H[?12l[?25h[?25l[3;36H{[23C}[41;130H2[3;62H[?12l[?25h[?25l[3;36H[46m{[23C}[m[41;127H[K[41;127H3,61[10CAll[3;61H[?12l[?25h[41;1H[K[3;60H[?25l[41;127H3,60[10CAll[3;60H[?12l[?25h[?25l[41;127H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"app/models/employee.rb" 4L, 174C written
+[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi db/[K[K[K[K[K[Kls db/
+development.sqlite3  [0m[01;34mmigrate[0m  schema.rb  seeds.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi db/schema.rb 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"db/schema.rb" 39L, 1424C[>c[1;1H[34m# This file is auto-generated from the current state of the database. Instead
+# of editing this file, please use the migrations feature of Active Record to
+# incrementally modify your database, and then regenerate this schema definition.
+#
+# Note that this schema.rb definition is the authoritative source for your
+# database schema. If you need to create the application database on another
+# system, you should be using db:schema:load, not running all the migrations
+# from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended that you check this file into your version control system.[m
+
+[32mActiveRecord[m::[32mSchema[m.define([31mversion[m: [31m20170111052018[m) [33mdo[m
+
+  create_table [35m"[m[31mcompanies[m[35m"[m, [31mforce[m: [31m:cascade[m [33mdo[m |[36mt[m|
+    t.string   [35m"[m[31mname[m[35m"[m
+    t.integer  [35m"[m[31mphoneno[m[35m"[m
+    t.string   [35m"[m[31mlocation[m[35m"[m
+    t.string   [35m"[m[31memail[m[35m"[m
+    t.datetime [35m"[m[31mcreated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+    t.datetime [35m"[m[31mupdated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+  [33mend[m
+
+  create_table [35m"[m[31memployees[m[35m"[m, [31mforce[m: [31m:cascade[m [33mdo[m |[36mt[m|
+    t.string   [35m"[m[31mname[m[35m"[m
+    t.integer  [35m"[m[31mphoneno[m[35m"[m
+    t.string   [35m"[m[31mdesignation[m[35m"[m
+    t.datetime [35m"[m[31mcreated_at[m[35m"[m,  [31mnull[m: [31mfalse[m
+    t.datetime [35m"[m[31mupdated_at[m[35m"[m,  [31mnull[m: [31mfalse[m
+  [33mend[m
+
+  create_table [35m"[m[31mvenders[m[35m"[m, [31mforce[m: [31m:cascade[m [33mdo[m |[36mt[m|
+    t.string   [35m"[m[31mname[m[35m"[m
+    t.string   [35m"[m[31mlocation[m[35m"[m
+    t.datetime [35m"[m[31mcreated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+    t.datetime [35m"[m[31mupdated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+  [33mend
+
+end[m
+[1m[34m~                                                                                                                                               [m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[K[41;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"db/schema.rb" 39L, 1424C written
+[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls
+[0m[01;34mapp[0m  [01;34mbin[0m  [01;34mconfig[0m  config.ru  [01;34mdb[0m  Gemfile  Gemfile.lock  [01;34mlib[0m  [01;34mlog[0m  out  [01;34mpublic[0m  Rakefile  README.md  [01;34mtest[0m  [01;34mtmp[0m  [01;34mvendor[0m
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls db/
+development.sqlite3  [0m[01;34mmigrate[0m  schema.rb  seeds.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls db/migrate/
+20170111051912_create_companies.rb  20170111051957_create_employees.rb  20170111052018_create_venders.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ [H[2J]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ ls db/migrate/[K[Kvi db/schema.rb [10Pls db/vi db/schema.rb ls[K db/migrate/[Kls db/migrate/[K[Kvi db/schema.rb [10Pls db/vi app/models/employee.rbls app[Kpublic[3Plibconfig[2Pbin/config[3Plibpublic[3Pappvi app/models/employee.rbls db/[Kvi db/schema.rb ls[K db/migrate/[Kraisl [K[K[Kls g migrate AddLastToVender last:string
+Running via Spring preloader in process 3579
+Expected string default value for '--jbuilder'; got true (boolean)
+Expected string default value for '--helper'; got true (boolean)
+Expected string default value for '--assets'; got true (boolean)
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migrate AddLastToVender last:string[C[1P[1P[1P[1P[1@C[1@l[1@o[1P[1P[1@o[1@l[1@u[1@m[1@n
+Running via Spring preloader in process 3589
+Expected string default value for '--jbuilder'; got true (boolean)
+Expected string default value for '--helper'; got true (boolean)
+Expected string default value for '--assets'; got true (boolean)
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migrate AddColumnToVender last:string[C[1P[1@i[1@o[1@n
+Running via Spring preloader in process 3597
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170111055434_add_column_to_vender.rb
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails db:migrate
+== 20170111055434 AddColumnToVender: migrating ================================
+-- add_column(:venders, :last, :string)
+   -> 0.0055s
+== 20170111055434 AddColumnToVender: migrated (0.0056s) =======================
+
+]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ vi db/v[K[K[K[Kapp/model[K[K[K[K[Kmodel[K[K[K[K[K[K[K[K[Kdb/schema.rb 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;41r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[41;1H"db/schema.rb" 40L, 1446C[>c[1;1H[34m# This file is auto-generated from the current state of the database. Instead
+# of editing this file, please use the migrations feature of Active Record to
+# incrementally modify your database, and then regenerate this schema definition.
+#
+# Note that this schema.rb definition is the authoritative source for your
+# database schema. If you need to create the application database on another
+# system, you should be using db:schema:load, not running all the migrations
+# from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended that you check this file into your version control system.[m
+
+[32mActiveRecord[m::[32mSchema[m.define([31mversion[m: [31m20170111055434[m) [33mdo[m
+
+  create_table [35m"[m[31mcompanies[m[35m"[m, [31mforce[m: [31m:cascade[m [33mdo[m |[36mt[m|
+    t.string   [35m"[m[31mname[m[35m"[m
+    t.integer  [35m"[m[31mphoneno[m[35m"[m
+    t.string   [35m"[m[31mlocation[m[35m"[m
+    t.string   [35m"[m[31memail[m[35m"[m
+    t.datetime [35m"[m[31mcreated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+    t.datetime [35m"[m[31mupdated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+  [33mend[m
+
+  create_table [35m"[m[31memployees[m[35m"[m, [31mforce[m: [31m:cascade[m [33mdo[m |[36mt[m|
+    t.string   [35m"[m[31mname[m[35m"[m
+    t.integer  [35m"[m[31mphoneno[m[35m"[m
+    t.string   [35m"[m[31mdesignation[m[35m"[m
+    t.datetime [35m"[m[31mcreated_at[m[35m"[m,  [31mnull[m: [31mfalse[m
+    t.datetime [35m"[m[31mupdated_at[m[35m"[m,  [31mnull[m: [31mfalse[m
+  [33mend[m
+
+  create_table [35m"[m[31mvenders[m[35m"[m, [31mforce[m: [31m:cascade[m [33mdo[m |[36mt[m|
+    t.string   [35m"[m[31mname[m[35m"[m
+    t.string   [35m"[m[31mlocation[m[35m"[m
+    t.datetime [35m"[m[31mcreated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+    t.datetime [35m"[m[31mupdated_at[m[35m"[m, [31mnull[m: [31mfalse[m
+    t.string   [35m"[m[31mlast[m[35m"[m
+  [33mend
+
+end[m[41;127H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[41;1H[K[41;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[41;1H[K[41;1H[?1l>[?12l[?25h[?1049l]0;amit@machine: ~/CoorporateCateringamit@machine:~/CoorporateCatering$ rails g migration [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krails [K[K[K[K[K[Krails g migration Updata[KeColumnto[K[KToVender [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KRemove [KColumn [KFromVender last
+Running via Spring preloader in process 3756
+Expected string default value for '--jbuilder
