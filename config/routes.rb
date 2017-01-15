@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+	
 =begin
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get "/vendors/:id", to: "vendor#show"
@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "vendors/:id/edit", to: "vendor#edit"
   put "vendors/:id", to: "vendor#update"
   delete "vendors/:id", to: "vendor#destroy"
-=end
+
 
 	resources :vendors do
 		collection do
@@ -17,5 +17,7 @@ Rails.application.routes.draw do
 		end
 		get 'rating', on: :member
 	end
+
+=end	
 
 end
