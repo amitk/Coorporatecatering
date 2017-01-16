@@ -9,7 +9,6 @@ Rails.application.routes.draw do
   put "vendors/:id", to: "vendor#update"
   delete "vendors/:id", to: "vendor#destroy"
 
-
 	resources :vendors do
 		collection do
 			get 'locations', on: :collection
@@ -18,6 +17,23 @@ Rails.application.routes.draw do
 		get 'rating', on: :member
 	end
 
-=end	
+=end
+
+resources :companies do
+	resources :employees
+end	
+
+resources :vendors do
+	resources :menus
+end
+
+resources :vendors do
+	collection do
+		get 'locations'
+		get 'search'
+	end
+end
+
+get "/orders/listing", to: "order#listing"
 
 end
