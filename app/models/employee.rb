@@ -12,10 +12,16 @@ class Employee < ApplicationRecord
 	end
 	after_validation :company_must_have_a_hr
 
+	before_destroy :cannot_delete_last_hr
+
 	def company_must_have_a_hr
-		if self.designation == "Hr"
-			true
-		elsif Employee.where(company_id: self.company_id, designation: "Hr").count == 0
+		if Employee.where(company_id: self.company_id, designation: "Hr").count == 0 && self.designation != "Hr"
+			throw :abort
+		end
+	end
+
+	def cannot_delete_last_hr
+		if self.designation == "Hr" && Employee.where(company_id: self.company_id, designation: "Hr").count == 1
 			throw :abort
 		end
 	end
