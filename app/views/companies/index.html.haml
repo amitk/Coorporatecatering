@@ -1,0 +1,13 @@
+%h1 COMPANIES
+%table{:border => 2}
+  %tbody
+    %tr
+      %td ID:
+      %td Name:
+    - @company.each do |object|
+      %tr
+        %td= object.id
+        %td= object.name
+        %td= link_to "show", company_path(object.id)
+        %td= link_to "update", edit_company_path(object.id)
+        %td= link_to "delete", company_path(object.id), method: :delete

@@ -2,7 +2,8 @@ class Employee < ApplicationRecord
 
 	validates :name, :designation, presence: true
 	validates :phone, length: { is: 10 }, format: { with: /\d{10}/, message: "invalid phone no"}
-	
+
+=begin	
 	after_initialize do |employees|
 		puts "after initialization"
 	end
@@ -25,7 +26,7 @@ class Employee < ApplicationRecord
 			throw :abort
 		end
 	end
-=begin	
+	
 
 	before_save do |employees|
 		puts "before save"
